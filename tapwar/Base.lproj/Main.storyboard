@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tapwar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="llo-A9-uup">
+                                <rect key="frame" x="-1836" y="-1452" width="4272" height="3204"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" backgroundImage="nbc-fires-donald-trump-after-he-calls-mexicans-rapists-and-drug-runners.jpg"/>
+                                <connections>
+                                    <action selector="TopBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uEk-c6-BnB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3u-Z4-T8a">
+                                <rect key="frame" x="60" y="270" width="480" height="360"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" backgroundImage="hillary-clinton-thumbs-up.jpg"/>
+                                <connections>
+                                    <action selector="BtmBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oxe-65-DLS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ta-NU-yGY">
+                                <rect key="frame" x="279" y="308" width="600" height="21"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MxV-xl-88u">
+                                <rect key="frame" x="279" y="271" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shi-R1-3rg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" backgroundImage="gty_obama_flint_water_02_jc_160504_4x3_992.jpg"/>
+                                <connections>
+                                    <action selector="endSceneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zcu-7t-Urq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsP-1d-JGz">
+                                <rect key="frame" x="239" y="412" width="123" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="Dbq-8a-Fec"/>
+                                    <constraint firstAttribute="width" constant="123" id="YL5-uW-pGJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuc-0K-bBK">
+                                <rect key="frame" x="239" y="109" width="123" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="HHZ-qe-ZGd"/>
+                                    <constraint firstAttribute="width" constant="123" id="tyR-f8-S1t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="shi-R1-3rg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="10e-XU-cE0"/>
+                            <constraint firstItem="7Ta-NU-yGY" firstAttribute="leading" secondItem="MxV-xl-88u" secondAttribute="leading" id="6D6-Ae-Wsn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s3u-Z4-T8a" secondAttribute="bottom" id="6mk-PR-FgK"/>
+                            <constraint firstItem="s3u-Z4-T8a" firstAttribute="height" secondItem="llo-A9-uup" secondAttribute="height" id="8XQ-5W-CA2"/>
+                            <constraint firstItem="llo-A9-uup" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Ad1-OX-SMQ"/>
+                            <constraint firstItem="shi-R1-3rg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Chh-qu-OMF"/>
+                            <constraint firstItem="llo-A9-uup" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="D0u-ga-Goz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dsP-1d-JGz" secondAttribute="bottom" constant="140" id="Djh-vl-u4V"/>
+                            <constraint firstItem="s3u-Z4-T8a" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Imd-cS-m1N"/>
+                            <constraint firstItem="shi-R1-3rg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pbm-OM-hTr"/>
+                            <constraint firstItem="s3u-Z4-T8a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="T2H-10-agP"/>
+                            <constraint firstItem="7Ta-NU-yGY" firstAttribute="top" secondItem="llo-A9-uup" secondAttribute="bottom" constant="8" id="aD4-rP-IyQ"/>
+                            <constraint firstItem="s3u-Z4-T8a" firstAttribute="top" secondItem="MxV-xl-88u" secondAttribute="bottom" constant="8" id="bL8-sn-uAJ"/>
+                            <constraint firstItem="dsP-1d-JGz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ctu-K6-ld1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="llo-A9-uup" secondAttribute="trailing" constant="-20" id="dN6-lz-hjU"/>
+                            <constraint firstItem="s3u-Z4-T8a" firstAttribute="top" secondItem="llo-A9-uup" secondAttribute="bottom" id="ezU-u2-eFK"/>
+                            <constraint firstItem="xuc-0K-bBK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fAN-F0-SCa"/>
+                            <constraint firstItem="shi-R1-3rg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="hCQ-pN-DzA"/>
+                            <constraint firstItem="7Ta-NU-yGY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="iPq-CC-6Ma"/>
+                            <constraint firstItem="s3u-Z4-T8a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qaj-Ay-aOM"/>
+                            <constraint firstItem="llo-A9-uup" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="srN-Hu-jfc"/>
+                            <constraint firstItem="llo-A9-uup" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tCG-p1-Oh6"/>
+                            <constraint firstItem="MxV-xl-88u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uhu-yl-KcI"/>
+                            <constraint firstItem="xuc-0K-bBK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="119" id="yDg-Rk-Kt1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s3u-Z4-T8a" secondAttribute="trailing" constant="-20" id="ydD-Bi-UGZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="iPq-CC-6Ma"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="BtmBtn" destination="s3u-Z4-T8a" id="iwU-8p-g6j"/>
+                        <outlet property="BtmEndScene" destination="dsP-1d-JGz" id="Y1s-xI-9XC"/>
+                        <outlet property="BtmLbl" destination="7Ta-NU-yGY" id="RYf-e8-4oF"/>
+                        <outlet property="TopBtn" destination="llo-A9-uup" id="Knh-FG-Q5R"/>
+                        <outlet property="TopEndScene" destination="xuc-0K-bBK" id="eTK-Sz-nRp"/>
+                        <outlet property="TopLbl" destination="MxV-xl-88u" id="Dtx-lB-blA"/>
+                        <outlet property="endScene" destination="shi-R1-3rg" id="Jl6-ds-vPL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="418"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gty_obama_flint_water_02_jc_160504_4x3_992.jpg" width="992" height="744"/>
+        <image name="hillary-clinton-thumbs-up.jpg" width="480" height="360"/>
+        <image name="nbc-fires-donald-trump-after-he-calls-mexicans-rapists-and-drug-runners.jpg" width="4272" height="3204"/>
+    </resources>
+</document>
